@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+- init creates the directory .git which contains all the necessary stuff for version control.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- staging area is a temp. middle area for files to be committed. It gives more control to user.
+
