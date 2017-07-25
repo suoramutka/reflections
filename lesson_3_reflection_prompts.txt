@@ -13,3 +13,5 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 - I would be sending files with info about changes on a server, perhaps into a SVN repository. Workin as a single developer with central repository and committing would perhaps be easier but comparing repositories while collaborating and merging versions would be harder.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+- when I want to test something new or different and don't want master to get those changes yet. Separate branches help developers team up on a new feature, bugfixes, etc and still keep master stable. Frequent updates in master help dev team to work with newer stable releases more often, but on the other hand if releases are made too early it might slow down everyones development work.
